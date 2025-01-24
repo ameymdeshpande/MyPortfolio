@@ -753,17 +753,17 @@
                                 <span>UI UX DESIGNER || LOGO & ICON DESIGN</span>
                             </div>
                             <div class="description">
-                                <p>I am available for freelance work. Connect with me via call or mail.
+                                <p>I am available for freelancing. Connect with me via call or mail.
                                 </p>
                                 <span class="phone">Phone: <a href="#">+91 8956619917</a></span>
-                                <span class="mail">Email: <a href="deshpandeameym@gmail.com">deshpandeameym@gmail.com</a></span>
+                                <span class="mail">Email: <a href="https://mail.google.com/mail/u/2/?ogbl#inbox?compose=CllgCJfpKPsKXWFPmrCQHlqHjGFQrKqXCskHQHqcQjnZMjxKrRVBBBnKPblZRmxlRjjZDPcFRgq">deshpandeameym@gmail.com</a></span>
                             </div>
                             <div class="social-area">
                                 <div class="name">FIND ME WITH</div>
                                 <div class="social-icone">
                                     <a href="https://github.com/ameymdeshpande"><i data-feather="github"></i></a>
                                     <a href="https://www.linkedin.com/in/ameymdeshpande"><i data-feather="linkedin"></i></a>
-                                    <!-- <a href="https://www.instagram.com/inaamajay/"><i data-feather="instagram"></i></a> -->
+                                    <!-- <a href="https://www.instagram.com/ameydeshpande/"><i data-feather="instagram"></i></a> -->
                                 </div>
                             </div>
                         </div>
@@ -772,50 +772,61 @@
                         <div class="contact-form-wrapper">
                             <div class="introduce">
 
-                                <form class="rnt-contact-form rwt-dynamic-form row" id="contact-form" method="POST" action="mail.php">
+                                <form class="rnt-contact-form rwt-dynamic-form row" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                                
+                                    <!-- Hidden Redirect URL (optional)
+                                    <input type="hidden" name="redirect" value="https://yourwebsite.com/thank-you"> -->
 
+                                    <!-- Hidden Access Key for Web3Forms -->
+                                    <input type="hidden" name="access_key" value="753f73b8-0c21-46ca-b555-7a24877a09c8">
+
+                                    <!-- Hidden Test Mode for Debugging -->
+                                    <!-- <input type="hidden" name="test_mode" value="true"> -->
+                                
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label for="contact-name">Your Name</label>
-                                            <input class="form-control form-control-lg" name="contact-name" id="contact-name" type="text">
+                                            <input class="form-control form-control-lg" name="name" id="contact-name" type="text" placeholder="Enter your name" required>
                                         </div>
                                     </div>
-
+                                
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label for="contact-phone">Phone Number</label>
-                                            <input class="form-control" name="contact-phone" id="contact-phone" type="text">
+                                            <input class="form-control" name="phone" id="contact-phone" type="text" placeholder="Enter your phone number" required>
                                         </div>
                                     </div>
-
+                                
                                     <div class="col-lg-12">
                                         <div class="form-group">
                                             <label for="contact-email">Email</label>
-                                            <input class="form-control form-control-sm" id="contact-email" name="contact-email" type="email">
+                                            <input class="form-control form-control-sm" id="contact-email" name="email" type="email" placeholder="Enter your email" required>
                                         </div>
                                     </div>
-
+                                
                                     <div class="col-lg-12">
                                         <div class="form-group">
-                                            <label for="subject">subject</label>
-                                            <input class="form-control form-control-sm" id="subject" name="subject" type="text">
+                                            <label for="subject">Subject</label>
+                                            <input class="form-control form-control-sm" id="subject" name="subject" type="text" placeholder="Enter the subject" required>
                                         </div>
                                     </div>
-
+                                
                                     <div class="col-lg-12">
                                         <div class="form-group">
                                             <label for="contact-message">Your Message</label>
-                                            <textarea name="contact-message" id="contact-message" cols="30" rows="10"></textarea>
+                                            <textarea name="message" id="contact-message" cols="30" rows="10" class="form-control" placeholder="Enter your message" required></textarea>
                                         </div>
                                     </div>
-
+                                
                                     <div class="col-lg-12">
                                         <button name="submit" type="submit" id="submit" class="rn-btn">
                                             <span>SEND MESSAGE</span>
                                             <i data-feather="arrow-right"></i>
                                         </button>
                                     </div>
+                                    
                                 </form>
+                                
                             </div>
                         </div>
                     </div>
