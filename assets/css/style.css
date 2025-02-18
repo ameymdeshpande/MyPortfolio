@@ -35,6 +35,44 @@
 31. Home Classic
 32. White Version
 ----------------------------*/
+
+/* MAIN IMAGE STYLES STARTS */
+
+.thumbnail {
+perspective: 1000px;
+}
+
+/* Fade-in effect on page load */
+.portfolio-image {
+width: 100%;
+border-radius: 10px;
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+transition: transform 0.5s ease, box-shadow 0.5s ease, opacity 1s ease;
+opacity: 0;
+animation: fadeIn 1s forwards;
+transform-style: preserve-3d;
+}
+
+/* Hover effect: 3D tilt, zoom-in & rotate */
+.portfolio-image:hover {
+transform: scale(1.1) rotateY(10deg) rotateX(5deg);
+box-shadow: 0 20px 40px rgb(255, 255, 255);
+}
+
+/* Keyframe animation for fade-in */
+@keyframes fadeIn {
+from {
+opacity: 0;
+transform: translateY(20px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+/* MAIN IMAGE STYLES ENDS */
+
 /* Default  */
 @import url("../../../../css2.css");
 @import url("../../../../css2-1.css");
