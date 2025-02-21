@@ -36,6 +36,18 @@
 32. White Version
 ----------------------------*/
 
+/* New Logo CSS */
+
+.logo img {
+    width: 120px; /* Adjust as needed */
+    height: auto;
+    max-height: 60px; /* Ensures it doesn't exceed the header */
+}
+.logo img {
+  border-radius: 10px; /* Adjust the value for more or less rounding */
+  overflow: hidden; /* Ensures the rounded effect is applied properly */
+}
+
 /* MAIN IMAGE STYLES STARTS */
 
 .thumbnail {
